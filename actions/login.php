@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__.'/../required.php';
+require __DIR__ . '/../required.php';
 
 if (is_empty($VARS['user'])) {
     header('Location: ' . URL . 'login.php?err=invaliduser');
@@ -21,4 +21,4 @@ if (!authenticate_user($VARS['user'], $VARS['pass'])) {
 $_SESSION['userid'] = $VARS['user'];
 $_SESSION['loggedin'] = true;
 
-header('Location: /');
+header('Location: ' . URL);

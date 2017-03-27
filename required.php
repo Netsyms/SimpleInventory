@@ -222,7 +222,7 @@ function redirectToPageId($id, $args, $dontdie) {
 
 function redirectIfNotLoggedIn() {
     if ($_SESSION['loggedin'] !== TRUE) {
-        header('Location: /login.php');
+        header('Location: ' . URL . '/login.php');
         die();
     }
 }
