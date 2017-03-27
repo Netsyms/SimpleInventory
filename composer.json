@@ -1,0 +1,14 @@
+{
+    "name": "netsyms/simple-inventory",
+    "description": "Very simple inventory management.",
+    "authors": [
+        {
+            "name": "Skylar Ittner",
+            "email": "admin@netsyms.com"
+        }
+    ],
+    "require": {
+        "catfan/medoo": "^1.2",
+        "stil/gd-text": "^1.0"
+    }
+}
