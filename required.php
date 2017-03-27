@@ -111,8 +111,8 @@ function user_exists($username) {
 }
 
 /**
- * Checks the given credentials against the ldap server.
- * @param string $email
+ * Checks the given credentials to see if they're legit.
+ * @param string $username
  * @param string $password
  * @return boolean True if OK, else false
  */

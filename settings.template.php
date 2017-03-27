@@ -33,7 +33,3 @@ define('URL', 'http://localhost:8000/');
 
 // Maximum number of rows to get in a query.
 define("QUERY_LIMIT", 1000);
-
-// API version code.
-// Apps will show a warning dialog if their code does not match.
-define("SERVER_VERSION", "1.0");
